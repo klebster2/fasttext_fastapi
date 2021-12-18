@@ -14,7 +14,9 @@ and activate env
 
 3. download model
 
-python3 -c "import fasttext.util; fasttext.util.download_model('en', if_exists='ignore')  # English"
+```bash
+python3 -c "import fasttext.util; fasttext.util.download_model('en', if_exists='ignore')  # English 300 dim cc vecs"
+```
 
 4. run uvicorn
 
