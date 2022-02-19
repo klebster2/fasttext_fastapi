@@ -4,79 +4,96 @@ import json
 import os
 
 from fastapi import FastAPI
+
+from functools import lru_cache
+from collections.abc import Iterable
+
+from pathlib import Path
+
 from .word_neighbors import (
         Word_Neighbors_Request,
         Word_Neighbors_Response,
 )
 
-from .model_names import (
-        FASTTEXT_DEFAULT_MODEL_NAMES,
-        OTHER_MODEL_NAMES,
-)
+from fasttext.util.util import valid_lang_ids as VALID_LANG_IDS
+
+#from .model_names import (
+#        FASTTEXT_DEFAULT_MODEL_NAMES,
+#        OTHER_MODEL_NAMES,
+#)
 
 from .model_utils import (
         Model_Status_Response,
-        Model_Name,
 )
-
-loaded_models = {}
 
 app = FastAPI()
 
-@app.post(
-        "/load_model/",
-        response_model=Model_Status_Response
-)
+# TODO: add get langids
+#@app.get(
+        #"/get_fasttext_langids/",
+        #response_model=LangIds,
+        #)
 
 @app.post(
         "/get_word_neighbors/",
         response_model=Word_Neighbors_Response,
 )
 
-def resolve_model(
-        model_path: str,
-        sanity_check_model_names: bool,
-        ):
+@lru_cache()
+def load_model(
+        model_name: str,
+        ) -> Iterable[fasttext.FastText._FastText, bool]:
     """
     """
     failiure = False
     model = None
-    model_basename = os.path.basename(model_path)
+    model_path = Path("models") / model_name
 
-    if sanity_check_model_names and model_basename in FASTTEXT_DEFAULT_MODEL_NAMES:
-        # download then load
-        model = fasttext.load_model(model_path)
-    elif sanity_check_model_names and model_basename in OTHER_MODEL_NAMES:
-        # download then load
-        # model = ...
-        pass # method to be added if other model resources are found e.g. online
-    elif sanity_check_model_names:
-        failiure = True
+    if model_path.exists():
+        model = fasttext.load_model(str(model_path))
     else:
-        model = fasttext.load_model(model_path)
+        failiure = True
 
     return model, failiure
 
-async def load_model(
-        model_name: str
-    ) -> Model_Status_Response:
+def download_model(model_name):
     """
+    Parameters
+    ----------
+    model_name: str
+    a binarized fasttext model
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    ...
+
+    Examples
+    --------
+    ...
     """
-    model, failiure = resolve_model(model_name)
+    lang_id = re.sub(r"cc\.([a-z]{2,4})\.300\.bin", r"\1", model_name)
 
-    if failiure:
-        return Model_Status_Response(
-                message=f"failiure loading {model_name}.",
-        )
-    else:
-        loaded_models.update({model_name: model})
-        return Model_Status_Response(
-                message=f"success loading {model_name}."
-        )
+    if not lang_id in VALID_LANG_IDS:
+        return None
+#    elif model_basename in OTHER_MODEL_NAMES:
+        # download then load
+#        pass # method to be added if other model resources are found e.g. online
 
+    if not os.path.exists("models"):
+        os.makedirs('models', exist_ok=True)
+
+    filename = fasttext.util.download_model(
+        lang_id,
+        if_exists='ignore'
+    )
+
+    return filename
 
 async def get_word_neighbors(
-        model_name: Model_Name,
         word_neighbors_request: Word_Neighbors_Request,
     ) -> Word_Neighbors_Response:
     """
@@ -96,12 +113,17 @@ async def get_word_neighbors(
     --------
     ...
     """
-    neighbors = loaded_models.get(
-            model_name
-    ).get_nearest_neighbors(
+    model, failiure = load_model(model_name)
+
+    if failiure:
+        model, failiure = download_model(model_name)
+        pass # if we hit failiure, download the model
+
+    neighbors = model.get_nearest_neighbors(
             word_neighbors_request.word,
             k=word_neighbors_request.neighbors,
     )
+
     neighbors_output = []
     for i, neighbor in enumerate(neighbors, 1):
         neighbors_output.append(

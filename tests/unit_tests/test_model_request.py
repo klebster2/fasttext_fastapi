@@ -11,20 +11,18 @@ from src.word_neighbors import (
 )
 
 from src.main import get_word_neighbors
-from src.main import resolve_model
+from src.main import load_model
 
 from tests.fixtures import EN_TEST_MODEL
+
 
 def test_resolve_model_success():
     """
     """
-    model, failiure = resolve_model(
-        str(EN_TEST_MODEL.resolve()),
-        sanity_check_model_names=False,
+    en_test_model = str(EN_TEST_MODEL.resolve())
+    model, failiure = load_model(
+        en_test_model,
     )
     assert failiure == False
 
-#def test_get_word_neighbors():
-    #    model = fasttext.load_model(EN_TEST_MODEL.resolve())
-#    get_word_neighbors()
 
