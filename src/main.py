@@ -2,20 +2,12 @@ import fasttext
 import sys
 import json
 
-from typing import Optional
-
 from fastapi import FastAPI
-from pydantic import BaseModel
-
+from .word_neighbors import (
+        Word_Neighbors_Request, Word_Neighbors_Response
+)
 
 model = fasttext.load_model("cc.en.300.bin")
-
-class Word_Neighbors_Request(BaseModel):
-    word: str
-    neighbors: int
-
-class Word_Neighbors_Response(BaseModel):
-    neighbors_output: list
 
 app = FastAPI()
 
@@ -24,7 +16,25 @@ app = FastAPI()
         response_model=Word_Neighbors_Response
 )
 
-async def get_word_neighbors(word_neighbors_request: Word_Neighbors_Request):
+async def get_word_neighbors(
+        word_neighbors_request: Word_Neighbors_Request,
+    ) -> Word_Neighbors_Response:
+    """
+    Parameters
+    ----------
+    word_neighbors_request: Word_Neighbors_Request
+
+    Returns
+    -------
+    Word_Neighbors_Response
+
+    See Also
+    --------
+    ...
+
+    Examples
+    --------
+    """
     neighbors = model.get_nearest_neighbors(
             word_neighbors_request.word,
             k=word_neighbors_request.neighbors,
@@ -38,7 +48,6 @@ async def get_word_neighbors(word_neighbors_request: Word_Neighbors_Request):
                 "score": f"{neighbor[0]:.3f}",
             }
         )
-    #return json.dumps(neighbors_output, indent=4)
     return Word_Neighbors_Response(
             neighbors_output=neighbors_output
     )
