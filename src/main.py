@@ -96,7 +96,9 @@ async def get_word_neighbors(
     --------
     ...
     """
-    neighbors = model.get_nearest_neighbors(
+    neighbors = loaded_models.get(
+            model_name
+    ).get_nearest_neighbors(
             word_neighbors_request.word,
             k=word_neighbors_request.neighbors,
     )
