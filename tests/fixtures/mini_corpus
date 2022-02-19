@@ -1,0 +1,10 @@
+Python is an interpreted high-level general-purpose programming language.
+Its design philosophy emphasizes code readability with its use of significant indentation.
+Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+Python is dynamically-typed and garbage-collected.
+It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming.
+It is often described as a "batteries included" language due to its comprehensive standard library.
+fastText is a library for learning of word embeddings and text classification created by Facebook's AI Research (FAIR) lab.
+The model allows one to create an unsupervised learning or supervised learning algorithm for obtaining vector representations for words.
+Facebook makes available pretrained models for 294 languages.
+Several papers describe the techniques used by fastText.
