@@ -1,0 +1,792 @@
+{
+  "Afrikaans": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.af.300.bin.gz",
+    "local_uncompressed": "cc.af.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.af.300.vec.gz"
+  },
+  "Albanian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sq.300.bin.gz",
+    "local_uncompressed": "cc.sq.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sq.300.vec.gz"
+  },
+  "Alemannic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.als.300.bin.gz",
+    "local_uncompressed": "cc.als.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.als.300.vec.gz"
+  },
+  "Amharic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.am.300.bin.gz",
+    "local_uncompressed": "cc.am.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.am.300.vec.gz"
+  },
+  "Arabic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ar.300.bin.gz",
+    "local_uncompressed": "cc.ar.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ar.300.vec.gz "
+  },
+  "Aragonese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.an.300.bin.gz",
+    "local_uncompressed": "cc.an.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.an.300.vec.gz"
+  },
+  "Armenian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hy.300.bin.gz",
+    "local_uncompressed": "cc.hy.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hy.300.vec.gz"
+  },
+  "Assamese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.as.300.bin.gz",
+    "local_uncompressed": "cc.as.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.as.300.vec.gz "
+  },
+  "Asturian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ast.300.bin.gz",
+    "local_uncompressed": "cc.ast.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ast.300.vec.gz"
+  },
+  "Azerbaijani": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.az.300.bin.gz",
+    "local_uncompressed": "cc.az.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.az.300.vec.gz"
+  },
+  "Bashkir": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ba.300.bin.gz",
+    "local_uncompressed": "cc.ba.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ba.300.vec.gz "
+  },
+  "Basque": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eu.300.bin.gz",
+    "local_uncompressed": "cc.eu.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eu.300.vec.gz"
+  },
+  "Bavarian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bar.300.bin.gz",
+    "local_uncompressed": "cc.bar.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bar.300.vec.gz"
+  },
+  "Belarusian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.be.300.bin.gz",
+    "local_uncompressed": "cc.be.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.be.300.vec.gz "
+  },
+  "Bengali": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bn.300.bin.gz",
+    "local_uncompressed": "cc.bn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bn.300.vec.gz"
+  },
+  "Bihari": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bh.300.bin.gz",
+    "local_uncompressed": "cc.bh.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bh.300.vec.gz"
+  },
+  "Bishnupriya Manipuri": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bpy.300.bin.gz",
+    "local_uncompressed": "cc.bpy.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bpy.300.vec.gz"
+  },
+  "Bosnian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bs.300.bin.gz",
+    "local_uncompressed": "cc.bs.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bs.300.vec.gz"
+  },
+  "Breton": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.br.300.bin.gz",
+    "local_uncompressed": "cc.br.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.br.300.vec.gz"
+  },
+  "Bulgarian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bg.300.bin.gz",
+    "local_uncompressed": "cc.bg.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bg.300.vec.gz"
+  },
+  "Burmese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.my.300.bin.gz",
+    "local_uncompressed": "cc.my.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.my.300.vec.gz"
+  },
+  "Catalan": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ca.300.bin.gz",
+    "local_uncompressed": "cc.ca.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ca.300.vec.gz"
+  },
+  "Cebuano": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ceb.300.bin.gz",
+    "local_uncompressed": "cc.ceb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ceb.300.vec.gz"
+  },
+  "Central Bicolano": {
+    "model": "https//dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bcl.300.bin.gz",
+    "local_uncompressed": "cc.bcl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bcl.300.vec.gz"
+  },
+  "Chechen": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ce.300.bin.gz",
+    "local_uncompressed": "cc.ce.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ce.300.vec.gz"
+  },
+  "Chinese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.bin.gz",
+    "local_uncompressed": "cc.zh.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.vec.gz"
+  },
+  "Chuvash": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cv.300.bin.gz",
+    "local_uncompressed": "cc.cv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cv.300.vec.gz"
+  },
+  "Corsican": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.co.300.bin.gz",
+    "local_uncompressed": "cc.co.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.co.300.vec.gz"
+  },
+  "Croatian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hr.300.bin.gz",
+    "local_uncompressed": "cc.hr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hr.300.vec.gz"
+  },
+  "Czech": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cs.300.bin.gz",
+    "local_uncompressed": "cc.cs.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cs.300.vec.gz"
+  },
+  "Danish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.da.300.bin.gz",
+    "local_uncompressed": "cc.da.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.da.300.vec.gz"
+  },
+  "Divehi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.dv.300.bin.gz",
+    "local_uncompressed": "cc.dv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.dv.300.vec.gz"
+  },
+  "Dutch": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nl.300.bin.gz",
+    "local_uncompressed": "cc.nl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nl.300.vec.gz"
+  },
+  "Eastern Punjabi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pa.300.bin.gz",
+    "local_uncompressed": "cc.pa.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pa.300.vec.gz"
+  },
+  "Egyptian Arabic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.arz.300.bin.gz",
+    "local_uncompressed": "cc.arz.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.arz.300.vec.gz"
+  },
+  "Emilian-Romagnol": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eml.300.bin.gz",
+    "local_uncompressed": "cc.eml.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eml.300.vec.gz"
+  },
+  "English": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz",
+    "local_uncompressed": "cc.en.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.vec.gz"
+  },
+  "Erzya": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.myv.300.bin.gz",
+    "local_uncompressed": "cc.myv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.myv.300.vec.gz"
+  },
+  "Esperanto": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eo.300.bin.gz",
+    "local_uncompressed": "cc.eo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.eo.300.vec.gz"
+  },
+  "Estonian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.et.300.bin.gz",
+    "local_uncompressed": "cc.et.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.et.300.vec.gz"
+  },
+  "Fiji Hindi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hif.300.bin.gz",
+    "local_uncompressed": "cc.hif.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hif.300.vec.gz"
+  },
+  "Finnish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fi.300.bin.gz",
+    "local_uncompressed": "cc.fi.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fi.300.vec.gz"
+  },
+  "French": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fr.300.bin.gz",
+    "local_uncompressed": "cc.fr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fr.300.vec.gz"
+  },
+  "Galician": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gl.300.bin.gz",
+    "local_uncompressed": "cc.gl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gl.300.vec.gz"
+  },
+  "Georgian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ka.300.bin.gz",
+    "local_uncompressed": "cc.ka.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ka.300.vec.gz"
+  },
+  "German": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.bin.gz",
+    "local_uncompressed": "cc.de.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.vec.gz"
+  },
+  "Goan Konkani": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gom.300.bin.gz",
+    "local_uncompressed": "cc.gom.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gom.300.vec.gz"
+  },
+  "Greek": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.el.300.bin.gz",
+    "local_uncompressed": "cc.el.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.el.300.vec.gz"
+  },
+  "Gujarati": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gu.300.bin.gz",
+    "local_uncompressed": "cc.gu.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gu.300.vec.gz"
+  },
+  "Haitian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ht.300.bin.gz",
+    "local_uncompressed": "cc.ht.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ht.300.vec.gz"
+  },
+  "Hebrew": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.he.300.bin.gz",
+    "local_uncompressed": "cc.he.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.he.300.vec.gz"
+  },
+  "Hill Mari": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mrj.300.bin.gz",
+    "local_uncompressed": "cc.mrj.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mrj.300.vec.gz"
+  },
+  "Hindi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hi.300.bin.gz",
+    "local_uncompressed": "cc.hi.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hi.300.vec.gz"
+  },
+  "Hungarian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hu.300.bin.gz",
+    "local_uncompressed": "cc.hu.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hu.300.vec.gz"
+  },
+  "Icelandic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.is.300.bin.gz",
+    "local_uncompressed": "cc.is.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.is.300.vec.gz"
+  },
+  "Ido": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.io.300.bin.gz",
+    "local_uncompressed": "cc.io.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.io.300.vec.gz"
+  },
+  "Ilokano": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ilo.300.bin.gz",
+    "local_uncompressed": "cc.ilo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ilo.300.vec.gz"
+  },
+  "Indonesian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.id.300.bin.gz",
+    "local_uncompressed": "cc.id.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.id.300.vec.gz"
+  },
+  "Interlingua": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ia.300.bin.gz",
+    "local_uncompressed": "cc.ia.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ia.300.vec.gz"
+  },
+  "Irish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ga.300.bin.gz",
+    "local_uncompressed": "cc.ga.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ga.300.vec.gz"
+  },
+  "Italian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.it.300.bin.gz",
+    "local_uncompressed": "cc.it.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.it.300.vec.gz"
+  },
+  "Japanese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.bin.gz",
+    "local_uncompressed": "cc.ja.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.vec.gz"
+  },
+  "Javanese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.jv.300.bin.gz",
+    "local_uncompressed": "cc.jv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.jv.300.vec.gz"
+  },
+  "Kannada": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.kn.300.bin.gz",
+    "local_uncompressed": "cc.kn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.kn.300.vec.gz"
+  },
+  "Kapampangan": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pam.300.bin.gz",
+    "local_uncompressed": "cc.pam.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pam.300.vec.gz"
+  },
+  "Kazakh": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.kk.300.bin.gz",
+    "local_uncompressed": "cc.kk.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.kk.300.vec.gz"
+  },
+  "Khmer": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.km.300.bin.gz",
+    "local_uncompressed": "cc.km.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.km.300.vec.gz"
+  },
+  "Kirghiz": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.bin.gz",
+    "local_uncompressed": "cc.ky.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.vec.gz"
+  },
+  "Korean": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ko.300.bin.gz",
+    "local_uncompressed": "cc.ko.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ko.300.vec.gz"
+  },
+  "Kurdish (Kurmanji)": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ku.300.bin.gz",
+    "local_uncompressed": "cc.ku.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ku.300.vec.gz"
+  },
+  "Kurdish (Sorani)": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ckb.300.bin.gz",
+    "local_uncompressed": "cc.ckb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ckb.300.vec.gz"
+  },
+  "Latin": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.la.300.bin.gz",
+    "local_uncompressed": "cc.la.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.la.300.vec.gz"
+  },
+  "Latvian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lv.300.bin.gz",
+    "local_uncompressed": "cc.lv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lv.300.vec.gz"
+  },
+  "Limburgish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.li.300.bin.gz",
+    "local_uncompressed": "cc.li.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.li.300.vec.gz"
+  },
+  "Lithuanian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lt.300.bin.gz",
+    "local_uncompressed": "cc.lt.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lt.300.vec.gz"
+  },
+  "Lombard": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lmo.300.bin.gz",
+    "local_uncompressed": "cc.lmo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lmo.300.vec.gz"
+  },
+  "Low Saxon": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nds.300.bin.gz",
+    "local_uncompressed": "cc.nds.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nds.300.vec.gz"
+  },
+  "Luxembourgish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lb.300.bin.gz",
+    "local_uncompressed": "cc.lb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.lb.300.vec.gz"
+  },
+  "Macedonian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mk.300.bin.gz",
+    "local_uncompressed": "cc.mk.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mk.300.vec.gz"
+  },
+  "Maithili": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mai.300.bin.gz",
+    "local_uncompressed": "cc.mai.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mai.300.vec.gz"
+  },
+  "Malagasy": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mg.300.bin.gz",
+    "local_uncompressed": "cc.mg.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mg.300.vec.gz"
+  },
+  "Malay": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ms.300.bin.gz",
+    "local_uncompressed": "cc.ms.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ms.300.vec.gz"
+  },
+  "Malayalam": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ml.300.bin.gz",
+    "local_uncompressed": "cc.ml.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ml.300.vec.gz"
+  },
+  "Maltese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mt.300.bin.gz",
+    "local_uncompressed": "cc.mt.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mt.300.vec.gz"
+  },
+  "Manx": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gv.300.bin.gz",
+    "local_uncompressed": "cc.gv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gv.300.vec.gz"
+  },
+  "Marathi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mr.300.bin.gz",
+    "local_uncompressed": "cc.mr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mr.300.vec.gz"
+  },
+  "Mazandarani": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mzn.300.bin.gz",
+    "local_uncompressed": "cc.mzn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mzn.300.vec.gz"
+  },
+  "Meadow Mari": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mhr.300.bin.gz",
+    "local_uncompressed": "cc.mhr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mhr.300.vec.gz"
+  },
+  "Minangkabau": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.min.300.bin.gz",
+    "local_uncompressed": "cc.min.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.min.300.vec.gz"
+  },
+  "Mingrelian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.xmf.300.bin.gz",
+    "local_uncompressed": "cc.xmf.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.xmf.300.vec.gz"
+  },
+  "Mirandese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mwl.300.bin.gz",
+    "local_uncompressed": "cc.mwl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mwl.300.vec.gz"
+  },
+  "Mongolian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mn.300.bin.gz",
+    "local_uncompressed": "cc.mn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mn.300.vec.gz"
+  },
+  "Nahuatl": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nah.300.bin.gz",
+    "local_uncompressed": "cc.nah.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nah.300.vec.gz"
+  },
+  "Neapolitan": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nap.300.bin.gz",
+    "local_uncompressed": "cc.nap.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nap.300.vec.gz"
+  },
+  "Nepali": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ne.300.bin.gz",
+    "local_uncompressed": "cc.ne.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ne.300.vec.gz"
+  },
+  "Newar": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.new.300.bin.gz",
+    "local_uncompressed": "cc.new.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.new.300.vec.gz"
+  },
+  "North Frisian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.frr.300.bin.gz",
+    "local_uncompressed": "cc.frr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.frr.300.vec.gz"
+  },
+  "Northern Sotho": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nso.300.bin.gz",
+    "local_uncompressed": "cc.nso.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nso.300.vec.gz"
+  },
+  "Norwegian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.no.300.vec.gz",
+    "local_uncompressed": "cc.no.300.vec",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.no.300.bin.gz"
+  },
+  "Norwegian (Nynorsk)": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nn.300.bin.gz",
+    "local_uncompressed": "cc.nn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.nn.300.vec.gz"
+  },
+  "Occitan": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.oc.300.bin.gz",
+    "local_uncompressed": "cc.oc.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.oc.300.vec.gz"
+  },
+  "Oriya": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.or.300.bin.gz",
+    "local_uncompressed": "cc.or.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.or.300.vec.gz"
+  },
+  "Ossetian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.os.300.bin.gz",
+    "local_uncompressed": "cc.os.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.os.300.vec.gz"
+  },
+  "Palatinate German": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pfl.300.bin.gz",
+    "local_uncompressed": "cc.pfl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pfl.300.vec.gz"
+  },
+  "Pashto": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ps.300.bin.gz",
+    "local_uncompressed": "cc.ps.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ps.300.vec.gz"
+  },
+  "Persian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fa.300.bin.gz",
+    "local_uncompressed": "cc.fa.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fa.300.vec.gz"
+  },
+  "Piedmontese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pms.300.bin.gz",
+    "local_uncompressed": "cc.pms.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pms.300.vec.gz"
+  },
+  "Polish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pl.300.bin.gz",
+    "local_uncompressed": "cc.pl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pl.300.vec.gz"
+  },
+  "Portuguese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pt.300.bin.gz",
+    "local_uncompressed": "cc.pt.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pt.300.vec.gz"
+  },
+  "Quechua": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.qu.300.bin.gz",
+    "local_uncompressed": "cc.qu.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.qu.300.vec.gz"
+  },
+  "Romanian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ro.300.bin.gz",
+    "local_uncompressed": "cc.ro.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ro.300.vec.gz"
+  },
+  "Romansh": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.rm.300.bin.gz",
+    "local_uncompressed": "cc.rm.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.rm.300.vec.gz"
+  },
+  "Russian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.bin.gz",
+    "local_uncompressed": "cc.ru.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz"
+  },
+  "Sakha": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sah.300.bin.gz",
+    "local_uncompressed": "cc.sah.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sah.300.vec.gz"
+  },
+  "Sanskrit": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sa.300.bin.gz",
+    "local_uncompressed": "cc.sa.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sa.300.vec.gz"
+  },
+  "Sardinian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sc.300.bin.gz",
+    "local_uncompressed": "cc.sc.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sc.300.vec.gz"
+  },
+  "Scots": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sco.300.bin.gz",
+    "local_uncompressed": "cc.sco.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sco.300.vec.gz"
+  },
+  "Scottish Gaelic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gd.300.bin.gz",
+    "local_uncompressed": "cc.gd.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.gd.300.vec.gz"
+  },
+  "Serbian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sr.300.bin.gz",
+    "local_uncompressed": "cc.sr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sr.300.vec.gz"
+  },
+  "Serbo-Croatian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sh.300.bin.gz",
+    "local_uncompressed": "cc.sh.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sh.300.vec.gz"
+  },
+  "Sicilian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.scn.300.bin.gz",
+    "local_uncompressed": "cc.scn.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.scn.300.vec.gz"
+  },
+  "Sindhi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sd.300.bin.gz",
+    "local_uncompressed": "cc.sd.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sd.300.vec.gz"
+  },
+  "Sinhalese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.si.300.bin.gz",
+    "local_uncompressed": "cc.si.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.si.300.vec.gz"
+  },
+  "Slovak": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sk.300.bin.gz",
+    "local_uncompressed": "cc.sk.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sk.300.vec.gz"
+  },
+  "Slovenian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sl.300.bin.gz",
+    "local_uncompressed": "cc.sl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sl.300.vec.gz"
+  },
+  "Somali": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.so.300.bin.gz",
+    "local_uncompressed": "cc.so.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.so.300.vec.gz"
+  },
+  "Southern Azerbaijani": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.azb.300.bin.gz",
+    "local_uncompressed": "cc.azb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.azb.300.vec.gz"
+  },
+  "Spanish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.es.300.bin.gz",
+    "local_uncompressed": "cc.es.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.es.300.vec.gz"
+  },
+  "Sundanese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.su.300.bin.gz",
+    "local_uncompressed": "cc.su.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.su.300.vec.gz"
+  },
+  "Swahili": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sw.300.bin.gz",
+    "local_uncompressed": "cc.sw.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sw.300.vec.gz"
+  },
+  "Swedish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sv.300.bin.gz",
+    "local_uncompressed": "cc.sv.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.sv.300.vec.gz"
+  },
+  "Tagalog": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tl.300.bin.gz",
+    "local_uncompressed": "cc.tl.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tl.300.vec.gz"
+  },
+  "Tajik": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tg.300.bin.gz",
+    "local_uncompressed": "cc.tg.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tg.300.vec.gz"
+  },
+  "Tamil": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ta.300.bin.gz",
+    "local_uncompressed": "cc.ta.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ta.300.vec.gz"
+  },
+  "Tatar": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tt.300.bin.gz",
+    "local_uncompressed": "cc.tt.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tt.300.vec.gz"
+  },
+  "Telugu": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.te.300.bin.gz",
+    "local_uncompressed": "cc.te.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.te.300.vec.gz"
+  },
+  "Thai": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.th.300.bin.gz",
+    "local_uncompressed": "cc.th.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.th.300.vec.gz"
+  },
+  "Tibetan": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bo.300.bin.gz",
+    "local_uncompressed": "cc.bo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.bo.300.vec.gz"
+  },
+  "Turkish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tr.300.bin.gz",
+    "local_uncompressed": "cc.tr.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tr.300.vec.gz"
+  },
+  "Turkmen": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tk.300.bin.gz",
+    "local_uncompressed": "cc.tk.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tk.300.vec.gz"
+  },
+  "Ukrainian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.uk.300.bin.gz",
+    "local_uncompressed": "cc.uk.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.uk.300.vec.gz"
+  },
+  "Upper Sorbian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hsb.300.bin.gz",
+    "local_uncompressed": "cc.hsb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.hsb.300.vec.gz"
+  },
+  "Urdu": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ur.300.bin.gz",
+    "local_uncompressed": "cc.ur.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ur.300.vec.gz"
+  },
+  "Uyghur": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ug.300.bin.gz",
+    "local_uncompressed": "cc.ug.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ug.300.vec.gz"
+  },
+  "Uzbek": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.uz.300.bin.gz",
+    "local_uncompressed": "cc.uz.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.uz.300.vec.gz"
+  },
+  "Venetian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vec.300.bin.gz",
+    "local_uncompressed": "cc.vec.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vec.300.vec.gz"
+  },
+  "Vietnamese": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.bin.gz",
+    "local_uncompressed": "cc.vi.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.vec.gz"
+  },
+  "Volapük": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vo.300.bin.gz",
+    "local_uncompressed": "cc.vo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vo.300.vec.gz"
+  },
+  "Walloon": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.wa.300.bin.gz",
+    "local_uncompressed": "cc.wa.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.wa.300.vec.gz"
+  },
+  "Waray": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.war.300.bin.gz",
+    "local_uncompressed": "cc.war.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.war.300.vec.gz"
+  },
+  "Welsh": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cy.300.bin.gz",
+    "local_uncompressed": "cc.cy.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.cy.300.vec.gz"
+  },
+  "West Flemish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vls.300.bin.gz",
+    "local_uncompressed": "cc.vls.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vls.300.vec.gz"
+  },
+  "West Frisian": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fy.300.bin.gz",
+    "local_uncompressed": "cc.fy.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fy.300.vec.gz"
+  },
+  "Western Punjabi": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pnb.300.bin.gz",
+    "local_uncompressed": "cc.pnb.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pnb.300.vec.gz"
+  },
+  "Yiddish": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.yi.300.bin.gz",
+    "local_uncompressed": "cc.yi.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.yi.300.vec.gz"
+  },
+  "Yoruba": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.yo.300.bin.gz",
+    "local_uncompressed": "cc.yo.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.yo.300.vec.gz"
+  },
+  "Zazaki": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.diq.300.bin.gz",
+    "local_uncompressed": "cc.diq.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.diq.300.vec.gz"
+  },
+  "Zeelandic": {
+    "model": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zea.300.bin.gz",
+    "local_uncompressed": "cc.zea.300.bin",
+    "word_vecs": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zea.300.vec.g"
+  }
+}
