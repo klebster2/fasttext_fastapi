@@ -23,3 +23,9 @@ python3 -c "import fasttext.util; fasttext.util.download_model('en', if_exists='
 ```bash
 uvicorn main:app --workers 1 --host 0.0.0.0 --port 8080
 ```
+
+5. open another shell and run:
+```bash
+curl "http:/0.0.0.0:8080/get_word_neighbors/" -H "Content-Type: application/json" --data '{"word":"hey","neighbors":500,"dropstrange":true}'
+```
+
