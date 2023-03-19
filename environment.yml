@@ -1,4 +1,4 @@
-name: fasttext_flask_api
+name: fasttext_fast_api
 dependencies:
   - python=3.10
   - flask
