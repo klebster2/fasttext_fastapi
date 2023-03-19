@@ -21,7 +21,7 @@ python3 -c "import fasttext.util; fasttext.util.download_model('en', if_exists='
 4. run uvicorn
 
 ```bash
-uvicorn main:app --workers 1 --host 0.0.0.0 --port 8080
+uvicorn main:src.app --workers 1 --host 0.0.0.0 --port 8080
 ```
 
 5. open another shell and run:
