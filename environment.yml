@@ -1,7 +1,9 @@
 name: fasttext_fastapi
 dependencies:
   - python=3.10
-  - flask
   - pip=21.2.4
   - pip:
-    - -r requirements.txt
+    - fasttext
+    - fastapi
+    - uvicorn
+    - requests
