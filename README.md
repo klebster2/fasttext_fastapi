@@ -18,10 +18,10 @@ and activate env
 python3 -c "import fasttext.util; fasttext.util.download_model('en', if_exists='ignore')  # English 300 dim cc vecs"
 ```
 
-4. run uvicorn
+4. run uvicorn with the COMPRESS_FASTTEXT flag
 
 ```bash
-uvicorn main:src.app --workers 1 --host 0.0.0.0 --port 8080
+COMPRESS_FASTTEXT=false uvicorn src.main:app --workers 1 --host 0.0.0.0 --port 8080
 ```
 
 5. open another shell and run:
